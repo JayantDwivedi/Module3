@@ -11,9 +11,10 @@ public class BubbleSort{
 					arr[j] = arr[j+1];
 					arr[j+1] = temp;
 				}
-				System.out.println(Arrays.toString(arr));     // Used to serprate and to analyse the sorting algorithm
+				System.out.println(Arrays.toString(arr));     // print the array at every step of sorting
 	 		}
-	 		System.out.println("*******************************");  // to print array after each modification;
+	 		System.out.println("*******************************");  // to seprate the arrays
+	 		System.out.println(Arrays.toString(arr));  // to print array after each modification;
 		}
 	}
 }
